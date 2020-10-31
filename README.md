@@ -1,4 +1,5 @@
-Platform - Kaggle
+Platform - Kaggle </br>
+Kaggle competetion as part of course GNR652 Machine Learning for Remote Sensing-I	</br>
 First take the train_dataset(which has 3 subfolders - aircrafts, ships, none) and run the code imagetonpy.py(present inside the train folder)
 Train dataset should be in train folder.
 Following paths should be there and should contain images.
@@ -13,7 +14,7 @@ Folder path - test/*.png
 
 Now run all the cells.In the end a link will be created for "Download_csv" which will download a csv file having the image name and their corresponding labels.
 
-I have done the testing and training in a single ipynb file which I have zipped.In addition I have added the imagetonpy.py file and readme.txt.
+Testing and training is done in a single ipynb file. </br>
 The basic architecture consists of 5 conv layers, pool layer, flatten, and  3 fully connected layer. Epochs 100 - takes about 3-4 min to train on kaggle GPU
 
 
